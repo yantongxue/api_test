@@ -3,7 +3,7 @@ import os
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
-
+sys.path.append("D:\jenkins")
 from data.get_data import Get_data
 from base.demo import RunMain
 from util.commen import CommonUtil
