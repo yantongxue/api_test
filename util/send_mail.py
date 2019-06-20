@@ -6,7 +6,8 @@ class SendMail:
 
     def send_mail(self,user_list,subject,content):
         send_user="931038157@qq.com"
-        password="cvdjlxsjfdxabeee"
+        password="pozsbymhxkombaja"
+       #zihvvcjxqllubchg
         email_host="smtp.qq.com"
         user="转角"+"<"+send_user+">"
         message=MIMEText(content,_subtype="plain",_charset="utf-8")#此处的_subtype="plain",代表就是邮件类型，就是普通text邮件类型,如果是html就是html类型

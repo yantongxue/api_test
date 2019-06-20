@@ -124,7 +124,7 @@ class Run_Test():
                     self.data.write_value(i, res)
                     fail_count.append(i)
 
-        #self.send.send_main(pass_count,fail_count)
+        self.send.send_main(pass_count,fail_count)
 
 
 
